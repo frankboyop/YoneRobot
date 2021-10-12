@@ -74,19 +74,19 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = 
-  𝑯𝑰 𝑴𝒀 𝑵𝑨𝑴𝑬 𝑰𝑺 𝑾𝑯𝑰𝑻𝑬 𝑻𝑰𝑮𝑬𝑹  𝑰𝑴 𝑨 𝑮𝑹𝑶𝑼𝑷 𝑴𝑨𝑵𝑨𝑮𝑰𝑵𝑮 𝑩𝑶T(https://telegra.ph/file/ed895803f370c9210cf48.jpg), 
+  𝑯𝑰 𝑴𝒀 𝑵𝑨𝑴𝑬 𝑰𝑺 PEGASUS 𝑰𝑴 𝑨 GROUP MANAGING BOT (https://telegra.ph/file/ece7042e45036b9a557a8.jpg), 
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ʏᴏɴᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/WHITE_TIGER_OFFICAL_BOT?startgroup=true"),
+            text="➕️ ᴀᴅᴅ ʏᴏɴᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/PEGASUS_GROUP_MANAGER_BOT?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="yone_"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{WHITE_TIGER_SUPPORT}"
+            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{PEGASUS_SUPPORT}"
         ),
     ],
     [
@@ -96,7 +96,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [WHITE TIGER](https://telegra.ph/file/ed895803f370c9210cf48.jpg) 
+`ʜɪ.. ɪ'ᴍ` [PEGASUS](https://telegra.ph/file/ece7042e45036b9a557a8.jpg) 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
 White_tiger_img="https://telegra.ph/file/ed895803f370c9210cf48.jpg"
